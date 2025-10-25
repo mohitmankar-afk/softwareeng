@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="front-page"></div>
+    <div class="background-image">
+        <video src="image/vid.mp4" autoplay loop muted playsinline>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Customer Care</a></li>
+            <li><a href="#">Report</a></li>
+        </ul>
+    </nav>
+    <div class="login-button-container">
+        <button id="login-button" class="login-button">Sign-Up</button>
+    </div>
+    <div class="know-more-container">
+        <p id="know-more-output">Know more about your car</p>
+    </div>
+    <div id="translucent-slide" class="translucent-slide">
+        <div class="container">
+            <div class="heading">Log In</div>
+            <form action="" class="form">
+                <input required="" class="input" type="email" name="email" id="email" placeholder="E-mail">
+                <input required="" class="input" type="password" name="password" id="password" placeholder="Password">
+                <span class="forgot-password"><a href="#">Forgot Password?</a></span>
+                <input class="login-button" type="submit" value="Sign In">
+            </form>
+            <div class="social-account-container"></div>
+            <button id="cancel-button" class="cancel-button">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
